@@ -6,6 +6,3 @@ jobs:
     steps:
       - name: Output GitHub Context
         run: echo "${{ toJSON(github) }}"
-        artifacts:
-          name: github-context
-          path: github-context.json
